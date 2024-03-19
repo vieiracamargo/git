@@ -1,3 +1,8 @@
 var name = 'bruno'
 var surName = 'camargo'
-console.log(`${name} ${surName}`) 
+
+let names = [name, surName]
+
+for (n of names){
+	console.log(n)
+}
